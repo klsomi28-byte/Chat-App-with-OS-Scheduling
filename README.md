@@ -30,11 +30,7 @@ Client → Server → Message Queue → Scheduler → Delivery
 | Ready Queue | Message Queue          |
 | Scheduling  | Message delivery order |
 
-
-
-
-## ⚙️ Tech Stack
-
+## Tech Stack
 * Python
 * Socket Programming
 * Threading
@@ -42,12 +38,10 @@ Client → Server → Message Queue → Scheduler → Delivery
 
 ##  How to Run
 ### 1️. Start Server
-
-```bash
+bash
 python server.py
-```
 
-### 2️⃣ Start Clients (multiple terminals)
+### 2️. Start Clients (multiple terminals)
 bash
 python client.py
 
@@ -66,4 +60,4 @@ Message: Hi sanjana
 ##  Author
 Sanjana K L
 
-* Your Name
+
